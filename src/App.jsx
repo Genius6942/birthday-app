@@ -4,7 +4,7 @@ import Confetti from 'react-confetti';
 
 export default function App() {
   let { width, height } = useWindowSize();
-  const words = ['cousin', 'mentor', 'teacher', 'developer', 'friend', 'role model', 'genius'];
+  const words = ['father', 'mentor', 'teacher', 'gamer', 'person'];
   const [text, setText] = useState(words[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
 	const [confetties, setConfetties] = useState([
@@ -60,9 +60,9 @@ export default function App() {
       </button>
       <div className='flex h-screen justify-center items-center text-3xl text-center'>
         <div>
-          Happy birthday to <span className="font-bold text-5xl underline">Yaotong</span>
-          {/* <br/>
-          an awesome <span className = 'inline-block p-2 border-red-500 border-[3px] bg-amber-500'>{ text }</span> */}
+          Happy birthday to <span className="font-bold text-5xl underline">Dad</span>
+          <br/>
+          an awesome <span className = 'inline-block p-2 border-red-500 border-[3px] bg-amber-500'>{ text }</span>
         </div>
       </div>
     </div>
